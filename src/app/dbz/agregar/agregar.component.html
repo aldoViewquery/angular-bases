@@ -1,0 +1,13 @@
+<h3>Agregar </h3>
+<hr>
+<!-- se puede usar el $event para trabajar con preventDefault-->
+<form (ngSubmit)="agregar()">
+    <input type="text" name="nombreinput" 
+   [(ngModel)]="nuevo.nombre"
+    placeholder="Nombre..">
+    <input type="text" name="poderinput"
+    [(ngModel)]="nuevo.poder"
+    placeholder="Poder..">
+    <button type="submit" > Agregar</button>
+
+</form>

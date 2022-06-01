@@ -1,0 +1,20 @@
+<h1>Dragon Ball Z</h1>
+<hr>
+<div class="row">
+    <div class="col">
+        <h3>Personajes</h3>
+        <hr>
+            <app-personaje >
+            </app-personaje>
+        <!--
+            <ul>
+                <li *ngFor="let personaje of datosDbz">
+                   /* {{personaje.nombre}}-{{personaje.poder | number}}*/
+                </li>
+            
+            </ul>    -->
+    </div>
+    <div class="col">
+        <app-agregar [nuevo]="nuevo" ></app-agregar>
+    </div>
+</div>
